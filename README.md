@@ -11,6 +11,8 @@ Lembretes: Configure notificações para tarefas associadas aos objetos.
 
 Pesquisa Rápida: Encontre qualquer item com facilidade.
 
+Backup em nuvem: Suporte para OAuth de conta Google.
+
 # Screenshots
 ![image](https://github.com/user-attachments/assets/12ceda66-a193-4252-852c-6eb01f784ba0)
 
