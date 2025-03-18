@@ -11,7 +11,7 @@ Lembretes: Configure notificações para tarefas associadas aos objetos.
 
 Pesquisa Rápida: Encontre qualquer item com facilidade.
 
-Backup em nuvem: Suporte para OAuth de conta Google. (Importante, client_secret deve ser colocado na pasta app e atualizado no código)
+Backup em nuvem: Suporte para OAuth de conta Google. (Importante, para compilar com essa funcionalidade, client_secret deve ser colocado na pasta app e atualizado devidamente no código)
 
 # Screenshots
 ![image](https://github.com/user-attachments/assets/12ceda66-a193-4252-852c-6eb01f784ba0)
