@@ -1,0 +1,22 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/homeButton"
+        android:title="Home"
+        android:icon="@android:drawable/btn_radio"/>
+    <item
+        android:id="@+id/searchButton"
+        android:title="Buscar"
+        android:icon="@android:drawable/ic_menu_search"/>
+    <item
+        android:id="@+id/fab"
+        android:title="Adicionar"
+        android:icon="@android:drawable/ic_menu_add"/>
+    <item
+        android:id="@+id/navigation_item4"
+        android:title="Notificações"
+        android:icon="@+id/optionsButton"/>
+    <item
+        android:id="@+id/navigation_item5"
+        android:title="Preferências"
+        android:icon="@android:drawable/ic_menu_preferences"/>
+</menu>

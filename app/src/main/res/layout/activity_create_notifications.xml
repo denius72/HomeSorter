@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="#009688"
+        android:elevation="4dp"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+        android:titleTextColor="@android:color/white"/>
+
+    <EditText
+        android:id="@+id/messageEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/toolbar"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="388dp"
+        android:layout_marginEnd="16dp"
+        android:hint="Mensagem da Notificação"
+        android:inputType="textMultiLine"
+        android:maxLines="5"
+        android:minLines="3" />
+
+    <Button
+        android:id="@+id/saveButton"
+        android:layout_width="159dp"
+        android:layout_height="64dp"
+        android:layout_below="@+id/toolbar"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="125dp"
+        android:layout_marginTop="501dp"
+        android:layout_marginEnd="126dp"
+        android:backgroundTint="#009688"
+        android:text="Salvar" />
+
+    <View
+        android:id="@+id/divider1"
+        android:layout_width="match_parent"
+        android:layout_height="6dp"
+        android:layout_below="@+id/toolbar"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="355dp"
+        android:layout_marginBottom="306dp"
+        android:background="#999" />
+
+    <Button
+        android:id="@+id/datePickerButton"
+        android:layout_width="136dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/toolbar"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="57dp"
+        android:layout_marginTop="97dp"
+        android:backgroundTint="#009688"
+        android:text="Data" />
+
+    <Spinner
+        android:id="@+id/notificationTypeSpinner"
+        android:layout_width="265dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/toolbar"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="72dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="73dp"
+        android:entries="@array/notification_types" />
+
+    <TextView
+        android:id="@+id/timeTextView"
+        android:layout_width="128dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/toolbar"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="34dp"
+        android:layout_marginTop="181dp"
+        android:layout_marginEnd="57dp"
+        android:layout_toEndOf="@+id/timePickerButton"
+        android:text="00:00:00"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/timePickerButton"
+        android:layout_width="136dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/toolbar"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="165dp"
+        android:backgroundTint="#009688"
+        android:text="Hora" />
+
+    <Spinner
+        android:id="@+id/recurrenceSpinner"
+        android:layout_width="269dp"
+        android:layout_height="70dp"
+        android:layout_below="@id/timePickerButton"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="21dp"
+        android:layout_marginEnd="71dp"
+        android:entries="@array/recurrence_options" />
+
+    <TextView
+        android:id="@+id/dateTextView"
+        android:layout_width="143dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/toolbar"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="113dp"
+        android:layout_marginEnd="40dp"
+        android:layout_toEndOf="@+id/datePickerButton"
+        android:text="01/01/9999"
+        android:textSize="16sp" />
+
+</RelativeLayout>

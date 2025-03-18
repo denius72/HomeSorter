@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="true" />
+    <uses-permission android:name="android.permission.SCHEDULE_ALARM" />
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <application
+        android:name=".HomeSorter"
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/icon"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.HomeSorter"
+        tools:targetApi="31">
+        <activity
+            android:name=".view.ContainerDetailsActivity"
+            android:label="HomeSorter"
+            android:theme="@style/Theme.HomeSorter"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".view.ContainerCreateView">
+        </activity>
+        <activity
+            android:name=".view.ContainerEditView">
+        </activity>
+        <activity
+            android:name=".view.ContainerSearchView">
+        </activity>
+        <activity
+            android:name=".view.ContainerMoveView">
+        </activity>
+        <activity
+            android:name=".view.CameraActivity">
+        </activity>
+        <activity
+            android:name=".view.NotificationViewActivity">
+        </activity>
+        <activity
+            android:name=".view.NotificationAddActivity">
+        </activity>
+        <activity
+            android:name=".view.ItemView">
+        </activity>
+        <activity
+            android:name=".view.LastParentsView">
+        </activity>
+        <activity
+            android:name=".view.OptionsView">
+        </activity>
+
+        <receiver
+            android:name=".controller.AlarmReceiver"
+            android:enabled="true"/>
+
+    </application>
+
+</manifest>

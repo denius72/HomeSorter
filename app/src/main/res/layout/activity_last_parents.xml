@@ -1,0 +1,33 @@
+<!-- item_container.xml -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="#009688"
+        android:elevation="4dp"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"/>
+
+    <TextView
+        android:id="@+id/textNome"
+        android:layout_width="384dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/toolbar"
+        android:layout_marginTop="-1dp"
+        android:hint="Mostrando os últimos locais desse objeto:"
+        android:padding="16dp" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/parentsRecyclerView"
+        android:layout_width="384dp"
+        android:layout_height="568dp"
+        android:layout_below="@id/textNome"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="10dp"
+        android:padding="16dp" />
+
+</RelativeLayout>
+
