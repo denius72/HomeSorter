@@ -1,6 +1,6 @@
 # HomeSorter
 
-HomeSorter é um aplicativo Android projetado para facilitar a organização dos objetos dentro de casa. Ele permite que os usuários cadastrem cômodos e adicionem itens, associando lembretes diretamente a eles. Dessa forma, tarefas recorrentes, como tirar o lixo ou substituir filtros, podem ser gerenciadas de maneira eficiente.
+HomeSorter é um aplicativo Android projetado para facilitar a organização dos objetos dentro de casa. Ele permite que os usuários cadastrem cômodos e adicionem itens, associando lembretes diretamente a eles. Dessa forma, tarefas recorrentes, como tirar o lixo ou substituir filtros, podem ser gerenciadas de maneira eficiente. Projeto estruturado na arquitetura MVC.
 
 # Funcionalidades
 Gerenciamento de Cômodos: Crie e organize diferentes áreas da casa.
