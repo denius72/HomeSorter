@@ -7,7 +7,7 @@ Gerenciamento de Cômodos: Crie e organize diferentes áreas da casa.
 
 Cadastro de Objetos: Adicione itens e mantenha tudo catalogado.
 
-Lembretes Inteligentes: Configure notificações para tarefas associadas aos objetos.
+Lembretes: Configure notificações para tarefas associadas aos objetos.
 
 Pesquisa Rápida: Encontre qualquer item com facilidade.
 
